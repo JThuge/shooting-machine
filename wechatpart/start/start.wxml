@@ -1,0 +1,11 @@
+<!--pages/start/start.wxml-->
+
+<view>
+
+  <text class="tHead">欢迎！\n</text>
+  <text class="nothead">欢迎来到投篮小游戏</text>
+
+  <view class="init" animation="{{slide_up1}}">
+   <button bindtap='go'>开始!</button>
+  </view>
+</view>

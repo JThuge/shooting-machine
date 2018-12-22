@@ -1,0 +1,31 @@
+<!--pages/index/index.wxml-->
+
+<html>
+
+<body>
+
+  <text class="tHead" animation="{{appear}}">\n乒乓投篮小程序</text>
+  <text class="textBox1" animation="{{appear}}">选择你的时间</text>
+  <text>\n\n\n\n\n\n\n\n\n</text>
+  <view class="btn1" animation="{{slide_up1}}">
+    <button bindtap='gotoduring'>no.去结束按钮页面30s</button>
+  </view>
+  <view class="btn1" animation="{{slide_up2}}">
+    <button bindtap='gotoduring'>no.去中途页面60s</button>
+  </view>
+
+  <view class="btn1" animation="{{slide_up3}}">
+
+    <button bindtap='gotoduring'>no.去图标页面90s</button>
+
+  </view>
+  <!--
+<view class="btn1" animation="{{slide_up4}}">
+
+  <button>120s</button>
+</view>
+-->
+  <!--debug用检查是否有name输入<text>{{name}}</text>已完成name的值从textbox框中读取-->
+</body>
+
+</html>

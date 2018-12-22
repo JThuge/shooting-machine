@@ -1,0 +1,30 @@
+/* pages/score/score.wxss */
+.textBox1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:100%;
+  opacity: 0
+}
+.tHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:200%;
+  opacity:0
+}
+.btn1{
+  width: 750rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+  opacity: 0
+}
+.num{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:150%;
+  opacity: 0
+}

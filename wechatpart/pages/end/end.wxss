@@ -1,0 +1,19 @@
+/* pages/end/end.wxss */
+.no1{
+  font-weight: bold;
+  font-size: 100rpx;
+  text-align: center
+}
+.no2{
+  font-weight: bold;
+  font-size:60rpx;
+  text-align: center
+}
+.button{
+  width: 750rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+  opacity: 1
+}

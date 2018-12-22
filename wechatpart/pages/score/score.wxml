@@ -1,0 +1,15 @@
+<!--pages/score/score.wxml-->
+<text>\n\n\n\n\n\n\n\n</text>
+<text class="tHead" animation="{{slide_up1}}">你的分数是：\n</text>
+
+<view class="textBox1" animation="{{slide_up2}}">
+  {{temp}}个/分
+</view>
+<text>\n</text>
+<view class="textBox1" animation="{{slide_up3}}">你击败了</view>
+<view class="num" animation="{{slide_up3}}">{{per}}%</view>
+<view class="textBox1" animation="{{slide_up3}}">的玩家</view>
+
+<view class="btn1"  animation="{{slide_up4}}">
+ <button bindtap='gotohistory'>查看历史数据</button>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/during/during.wxml-->
+<text>\n</text>
+<text class='textBox1' animation="{{disappear}}">请操作器械，专心于游戏吧</text>
+<text>\n\n\n\n</text>
+<text class='big' animation="{{disappear}}">:)</text>
+<text>\n\n\n\n</text>
+<text  class='textBox2' animation="{{slide_up1}}">结束了？</text>
+<view class="btn1" animation="{{slide_up1}}">
+  <button bindtap='gotoend'>按这里！</button>
+</view>

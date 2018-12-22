@@ -1,0 +1,7 @@
+<!--pages/end/end.wxml-->
+<br/><view class='no1'>完成了\n</view>
+<view><br/><br/><br/></view>
+<view class='no2'>点击下面的按钮以查看分数</view>
+<view class='button'>
+  <button bindtap='gotoscore'>查看本次分数</button>
+</view>

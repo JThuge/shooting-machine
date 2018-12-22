@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "start/start",
+    "pages/index/index",
+    "pages/history/history",
+    "pages/end/end",
+    "pages/during/during",
+    "pages/score/score"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackground":"white",
+    "navigationBarTitleText":"投篮！",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "debug":true
+  
+}
